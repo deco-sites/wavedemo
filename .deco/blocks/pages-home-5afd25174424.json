@@ -1,42 +1,63 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p><span style=\"color: #971212\">Csjdpoakdl;samd;lak;dlaskd</span></p>",
+      "cta": [
+        {
+          "id": "sdasd",
+          "href": "/conhecer",
+          "text": "Conhecer",
+          "outline": true
+        }
+      ],
+      "description": "djk;paslkd;lsakd",
+      "image": "https://assets.decocache.com/wavedemo/f1c9a9b9-cb1d-4b9e-8243-0b77b7f52611/create-brand-logo-svg-high-definition"
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx",
+      "logos": []
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Conexões culturais",
+      "description": "Conexões Culturais\" é uma loja online que busca celebrar a diversidade cultural e promover a inclusão através da venda de produtos e experiências inspiradas em diferentes culturas ao redor do Brasil. A loja não apenas oferece produtos únicos, mas também busca criar uma plataforma interativa onde as pessoas possam aprender, compartilhar e se conectar por meio de experiências culturais significativas.",
+      "posts": [
+        {
+          "tags": [],
+          "title": "produto x",
+          "author": "wesley",
+          "excerpt": "12",
+          "date": "12/10/20",
+          "image": "https://assets.decocache.com/wavedemo/f1c9a9b9-cb1d-4b9e-8243-0b77b7f52611/create-brand-logo-svg-high-definition"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
